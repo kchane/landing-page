@@ -74,3 +74,32 @@ body {
     border: 1px solid royalblue;
     color: white;
 }
+
+.title {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px  ;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 300px;
+}
+.box {
+    margin-top: 32px;
+    border: 5px solid royalblue;
+    border-radius: 25px;
+    flex: 1;
+}
