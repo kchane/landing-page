@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* header */
 .header {
     background: #1f2937;
     display: flex;
@@ -29,7 +29,7 @@ body {
     color: #e5e7eb;
     font-size: 18px;
 }
-
+/* image placeholder and text */
 .headercontent {
     color: #f9faf8;
     background: #1f2937;
@@ -84,7 +84,7 @@ body {
     font-weight: bolder;
     color: #1f2937;
 }
-
+/* center part with image placeholders and text */
 .center {
     display: flex;
     justify-content: center;
@@ -107,7 +107,7 @@ body {
     border-radius: 25px;
     flex: 1;
 }
-
+/* quote section */
 .quotebox {
     display: flex;
     /* flex-direction: column; */
@@ -134,7 +134,7 @@ body {
     font-weight: bold;
     margin-left: 600px;
 }
-
+/* call to action section */
 .bottom {
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ body {
     border: 3px solid white;
     font-size: 20px;
 }
-
+/* footer */
 .footer {
     display: flex;
     align-items: center;
