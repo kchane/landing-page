@@ -40,7 +40,7 @@ body {
 
 .headercontentleft,
 .headercontentright {
-    width: 810px;
+    width: 650px;
     height: 300px;
 }
 
@@ -49,11 +49,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 300px;
 }
 
 .headercontentleft {
     box-sizing: border-box;
     padding-right: 153px;
+    margin-left: 300px;
 }
 
 .headertext {
@@ -87,7 +89,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 75px;
     padding-bottom: 150px;
     padding-top: 50px;
 }
@@ -120,7 +122,7 @@ body {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
-    padding: 150px 600px;
+    padding: 150px 475px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -137,13 +139,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 0px;
+    padding: 100px 0px;
 }
 
 .calltoaction {
+    height: 125px;
     background: royalblue;
-    border-radius: 25px;
-    width: 1800px;
+    border-radius: 10px;
+    width: 1300px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -158,4 +161,14 @@ body {
 .calltoaction button {
     border: 3px solid white;
     font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
+    color: white;
+    padding: 32px 0px;
+    font-size: 14px;
 }
