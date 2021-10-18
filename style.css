@@ -132,3 +132,30 @@ body {
     font-weight: bold;
     margin-left: 600px;
 }
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.calltoaction {
+    background: royalblue;
+    border-radius: 25px;
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 0px;
+    font-weight: bold;
+}
+
+.calltoaction .text {
+    font-weight: normal;
+}
+
+.calltoaction button {
+    border: 3px solid white;
+    font-size: 20px;
+}
